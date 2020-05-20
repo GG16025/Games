@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="HorrorQuest.StartQuest"
+    BackgroundColor="#363636">
+    <StackLayout>
+        <Grid RowSpacing="0" ColumnSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="7*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Text="   В небольшом мексиканском городке Хараль-дель-Прогресо есть парк Бенито-Хуарес. Это одна из достопримечательностей города, однако парк был разбит на месте старого кладбища, поэтому о нём распространилась дурная слава. Городские власти как можно лучше благоустраивали сквер. Они установили скамейки и проложили дорожки, чтобы люди могли наслаждаться красотой природы. Однако, как считали местные жители, власти разбудили местных духов и на место наложено проклятье. Каждый вечер в парке кто-то разрушал скамейки и исчезал. Тогда власти наняли охрану, чтобы патрулировать территорию по ночам." 
+                FontSize="20" TextColor="#FAFAD2" VerticalOptions="Center"/>
+            <Button x:Name="Start" Clicked="Quest_Click" FontSize="20" Grid.Row="1" Text="Начинаем?"  TextColor="#FAFAD2" BackgroundColor="#8B3A3A"></Button>
+        </Grid>
+    </StackLayout>
+</ContentPage>

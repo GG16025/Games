@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="HorrorQuest.QuestOne"
+             BackgroundColor="#363636">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="7*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Label x:Name="TestQ" Text="Хей,Билл,сегодня твоя смена" FontSize="20" TextColor="#FAFAD2" Grid.Row="0" VerticalOptions="Center"/>
+            <Button x:Name="Rut1" Text="Да пошёл ты!)"  FontSize="20" Grid.Row="1" TextColor="#FAFAD2" BackgroundColor="#8B3A3A"/>
+            <Button x:Name="Rut2" Text="Я в курсе, Эш" FontSize="20" Grid.Row="2" TextColor="#FAFAD2" BackgroundColor="#8B3A3A"/>
+            </Grid>
+    </ContentPage.Content>
+</ContentPage>

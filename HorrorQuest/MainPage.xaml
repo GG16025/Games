@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="HorrorQuest.MainPage"
+
+    BackgroundColor="#363636">
+    <StackLayout>
+        <Grid RowSpacing="0" ColumnSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="7*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Text="Хоррор квесты" 
+            FontSize="20"
+           VerticalOptions="CenterAndExpand" TextColor="#FAFAD2"/>
+            <Button x:Name="Buttun1" Grid.Row="1"  Text="Хараль-дель-Прогресо" Clicked="Button1_Click" TextColor="#FAFAD2" BackgroundColor="#8B3A3A"  HorizontalOptions="Center" FontSize="20"></Button>
+            <Button x:Name="Buttun2" Grid.Row="2" Text="В разработке" FontSize="20" TextColor="#FAFAD2" BackgroundColor="#8B3A3A"></Button>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>
